@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: url(/imagenes/main/fondo.jpeg);
+    background: url(../imagenes/main/fondo.jpeg);
     background-size: cover;
 
     position: relative;
