@@ -12,8 +12,8 @@ if (!popUp) {
 
   localStorage.setItem('respuesta', respuesta);
 };
-document.getElementById('pcia')
-if ( pcia == ba && localidad == 'san nicolas', 'San Nicolas', 'San Nicolas de los Arroyos', 'san nicolas de los arroyos'){
+document.getElementsByClassName('envio')
+if ( pcia == 'Buenos Aires' && localidad == 'san nicolas', 'San Nicolas', 'San Nicolas de los Arroyos', 'san nicolas de los arroyos'){
   alert('El envio es gratuito con tu compra de mas de $1000');
 }else{
   alert('El envio se realizara por correo argentino con un costo de $800');
