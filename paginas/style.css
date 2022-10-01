@@ -161,11 +161,19 @@ aside{
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
+}
+#pcia{
+    border: solid  coral;
+    background-color: aliceblue;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
 }
 .descarga_boton{
     border: solid  coral;
     background-color: aliceblue;
     font-family: Helvetica, sans-serif;
+    text-align: center;
 }
 /*---------------------------------------------------------------------------------aside---------------*/
 /*---------------botones----------------------------------*/
