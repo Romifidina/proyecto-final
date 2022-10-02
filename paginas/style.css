@@ -145,9 +145,9 @@ aside{
 .vid{
     width: 100%;
     height: auto;
-    margin-top: 1rem;
-    z-index: 2;
+    margin-top: 0.5rem;
 }
+
 /*------index-------------*/
 .index{
     width: 50%;
