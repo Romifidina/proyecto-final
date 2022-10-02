@@ -29,8 +29,9 @@ function envio(){
 
 // consultar antes de cerrar la pagnia si quiere salir del sitio
 function salir(){
-  window.confirm("Seguro deseas enviar este mensaje");
- if (true) {
-  alert('Contestaremos a la brevedad'), document.form.submit();
+  let respu = window.confirm("Seguro deseas enviar este mensaje");
+  if ( respu == true) {
+  alert('Contestaremos a la brevedad');
+  document.getElementById('form').submit();
  };
 }
