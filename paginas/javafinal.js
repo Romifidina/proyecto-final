@@ -27,8 +27,8 @@ funcion('envio'){
 
 
 // consultar antes de cerrar la pagnia si quiere salir del sitio
-function(salir){
-  window.confirm("Seguro queres retirarte?");
+function('salir'){
+  window.confirm("Seguro deseas enviar este mensaje");
  if (true) {
- window.open(exit.html, "Muchas gracias por pasar!");
+ window.open(exit.html, "Contestaremos a la brevedad");
  };
