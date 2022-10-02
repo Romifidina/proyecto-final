@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagenes/main/tiendagraceredondo.png">
     <link rel="stylesheet" href="../proyecto-final/paginas/style.css">
+    <!--<link rel="stylesheet" href="/paginas/style.css">-->
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>GRACE</title>
@@ -119,8 +120,7 @@
         </section>
       </div>
         <aside class="index">
-          <h6>Si no encontraste lo que estabas buscando en el stock, descarga nuestro catalogo y pedinos lo que necesites!</h6>
-          <br>
+          <h6>Si no encontraste lo que estabas buscando en el stock, descarga nuestro catalogo y pedinos lo que necesites!</h6><br>
           <div class="descarga">
             <a href="./imagenes/index/catalogo primavera 2022.pdf" download="Catálogo primavera 2022">
               <button type="button" class="descarga_boton">Catálogo primavera 2022</button> 
@@ -129,9 +129,8 @@
           <br>
           <br>
           <h6>Tambien  hacemos envios a domicilio, dejanos tu dirección y consulta el precio.</h6><br>
-          <br>
-          <div class="descarga"> 
-            <form method="" action="">
+          <div> 
+            <form method="" action="" class="descarga">
             Seleccione su provincia<br>
             <select id="pcia" name="pcia">
               <option value="ba">Buenos Aires</option>
@@ -159,15 +158,16 @@
                 <option value="tu">Tucumán</option>
             </select><br>
             ingresa el codigo postal de tu ciudad:
-            <input type="text" value="localidad" name="localidad" id="pcia" class="envio"><br>
+            <input type="text" value="" name="localidad" id="pcia" class="envio"><br>
             Coloca tu direccion:<br>
-            <input type="text" value="dirección" name="dirección" id="pcia"><br>
+            <input type="text" value="" name="dirección" id="pcia"><br>
             <input type="submit" value="ENVIAR" id="pcia" onclick="envio()">
             <div class="descarga" id="envio"></div>
           </form>
           </div> 
         </aside>
-        <a href="../../proyecto-final/paginas/html/contacto.html"><img class="mail" src="./imagenes/main/mail.png"></a> 
+        <a href="../../proyecto-final/paginas/html/contacto.html"><img class="mail" src="./imagenes/main/mail.png"></a>
+        <!--<a href="/paginas/html/contacto.html"><img class="mail" src="./imagenes/main/mail.png"></a>-->
         <a target="_blank" href="https://api.whatsapp.com/send?phone=543364338288"><img class="wsp" src="./imagenes/main/wsp.png"></a>
         <a href="../proyecto-final/index.html"><img class="in" src="./imagenes/main/inicio.png"></a> 
     </main>
@@ -175,6 +175,7 @@
         <p class="largo">© 2022 - 2022 Romina Campora.  Las imagenes por el momento son ilustrativas.</p>
         <p class="corto">© 2022 RC</p>
     </footer>
+    <!--<script src="/paginas/javafinal.js"></script>-->
     <script src="../proyecto-final/paginas/javafinal.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

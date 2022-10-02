@@ -160,7 +160,7 @@ aside{
 .descarga{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     flex-direction: column;
 }
 #pcia{
@@ -168,6 +168,7 @@ aside{
     background-color: aliceblue;
     font-family: Helvetica, sans-serif;
     text-align: center;
+    width: 100%;
 }
 .descarga_boton{
     border: solid  coral;
