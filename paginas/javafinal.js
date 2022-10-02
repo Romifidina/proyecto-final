@@ -27,17 +27,8 @@ funcion('envio'){
 
 
 // consultar antes de cerrar la pagnia si quiere salir del sitio
-// window.confirm(message);
-   // if (window.confirm("Seguro queres retirarte?")) {
-    //window.open("exit.html", "Muchas gracias por pasar!");
-    //};
-  //si ya hay respuesta no volver a preguntar, de lo contrario preguntar hasta que haya respuesta
- // if( !localStorage.getItem(edad) ){
-
-    //document.getElementById('mensaje').style.display= 'block';
-    //localStorage.setItem(edad,1); 
-
-//}else {
-    //document.getElementById('mensaje').style.display= 'none';
-//}
-
+function(salir){
+  window.confirm("Seguro queres retirarte?");
+ if (true) {
+ window.open(exit.html, "Muchas gracias por pasar!");
+ };
