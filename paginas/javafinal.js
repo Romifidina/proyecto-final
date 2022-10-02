@@ -27,7 +27,7 @@ function envio(){
 
 
 
-// consultar antes de cerrar la pagnia si quiere salir del sitio
+// consultar antes de enviar un formulario
 function salir(){
   let respu = window.confirm("Seguro deseas enviar este mensaje");
   if ( respu == true) {
