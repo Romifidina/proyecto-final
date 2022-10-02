@@ -1,4 +1,5 @@
 
+//preguntar la edad al entrar a la pagina
 let popUp = localStorage.getItem('respuesta');
 
 if (!popUp) {
@@ -12,12 +13,18 @@ if (!popUp) {
 
   localStorage.setItem('respuesta', respuesta);
 };
-document.getElementsByClassName('envio')
-if ( pcia == 'Buenos Aires' && localidad == 'san nicolas', 'San Nicolas', 'San Nicolas de los Arroyos', 'san nicolas de los arroyos'){
-  alert('El envio es gratuito con tu compra de mas de $1000');
-}else{
-  alert('El envio se realizara por correo argentino con un costo de $800');
-};
+
+
+//crear una funcion de envio
+funcion(envio){
+  document.getElementsByClassName('envio')
+    if (localidad == 2900){
+      document.getElementById('envio').innerHTML = 'Su envio es gratuito con su compra de mas de $1000'
+    } else{
+      document.getElementById('envio').innerHTML = 'Su envio tiene un costo de $1000'
+    }
+}
+
 
 // consultar antes de cerrar la pagnia si quiere salir del sitio
 // window.confirm(message);
