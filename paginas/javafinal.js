@@ -31,6 +31,6 @@ function envio(){
 function salir(){
   window.confirm("Seguro deseas enviar este mensaje");
  if (true) {
-  alert('Contestaremos a la brevedad')
+  alert('Contestaremos a la brevedad'), document.form.submit();
  };
 }
