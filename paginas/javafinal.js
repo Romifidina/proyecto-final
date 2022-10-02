@@ -19,17 +19,18 @@ if (!popUp) {
 let localidad = document.getElementsByClassName('envio')
 function envio(){
     if (localidad == 2900){
-      document.getElementById('envio').innerHTML = 'Su envio es gratuito con su compra de mas de $1000';
+      alert('Su envio es gratuito con su compra de mas de $1000');
     } else{
-      document.getElementById('envio').innerHTML = 'Su envio tiene un costo de $1000';
-    }
+      alert('Su envio tiene un costo de $1000');
+    };
 };
+
 
 
 // consultar antes de cerrar la pagnia si quiere salir del sitio
 function salir(){
   window.confirm("Seguro deseas enviar este mensaje");
  if (true) {
- window.open(exit.html, "Contestaremos a la brevedad");
- }
-};
+  alert('Contestaremos a la brevedad')
+ };
+}
