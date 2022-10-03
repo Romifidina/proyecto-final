@@ -122,6 +122,8 @@ aside{
     width: 30%;
     height: fit-content;
     float: right;
+    
+    padding: 1rem;
 }
 /*---contacto-------*/
 .tabla{
@@ -142,6 +144,9 @@ aside{
 /*------index-------------*/
 .index{
     width: 30%;
+
+    padding: 1rem;
+    
     background-color: rgba(250, 235, 215, 0.788);
 }
 .descarga{
@@ -254,7 +259,8 @@ footer{
     }
     .index{
         width: 100%;
-        margin: 1rem;
+        margin: 1rem 1rem 1rem 1rem;
+        padding: .5rem;
         display: block;
     }
     .in,.wsp,.mail{
