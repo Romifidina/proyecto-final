@@ -258,14 +258,19 @@ footer{
     aside{
         width: 100%;
         margin: 0;
-        padding: 1rem;
+        padding: 0rem;
         display: block;
     }
     .index{
         width: 100%;
-        margin 0;
+        margin: 0;
         padding: 1rem;
         display: block;
+    }
+    .tabla{
+        display: block;
+        overflow: hidden;
+
     }
     .in,.wsp,.mail{
         display: none;
