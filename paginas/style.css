@@ -64,18 +64,29 @@ main{
         margin: 10rem 1rem 0rem 0rem;
     }
     .ofertas{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    aside{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
 
+
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    section{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    aside{
         width: 100%;
         margin: 0rem 1rem 0rem 0rem ;
+        padding: 0;
+    }
+    .index{
+        width: 100%;
+        margin: 0;
         padding: 0;
     }
     .in,.wsp,.mail{
@@ -84,8 +95,6 @@ main{
     }
     footer{
         display: flex;
-        justify-content: space-between;
-        align-content: space-between;
     }
 }
 /*----------------------------------------------------------------------------section--------------*/
