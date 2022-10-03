@@ -54,51 +54,6 @@ main{
     display: flex;
     gap: 1rem;
 }
-@media (max-width: 700px) {
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
-    main{
-        margin: 9rem 1rem 1rem 1rem;
-    }
-    .ofertas{     
-        width: 100%;
-        margin: 0;
-        padding: 0;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
-    section{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .cat{
-        display: grid;
-        width: 100%;
-    }
-    aside{
-        width: 100%;
-        margin: 0rem 1rem 0rem 0rem ;
-        padding: 0;
-    }
-    .index{
-        width: 100%;
-    }
-    .in,.wsp,.mail{
-        display: none;
-        margin: 0;
-    }
-    footer{
-        display: flex;
-    }
-}
 /*----------------------------------------------------------------------------section--------------*/
 section{
     background-color: rgba(233, 146, 85, 0.8);
@@ -282,5 +237,42 @@ footer{
         display: flex;
         height: 2rem;
         width: auto;
+    }
+    main{
+        margin: 9rem 1rem 1rem 1rem;
+    }
+    .ofertas{     
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    section{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .cat{
+        display: grid;
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+        margin: 0rem 1rem 0rem 0rem ;
+        padding: 0;
+    }
+    .index{
+        width: 100%;
+    }
+    .in,.wsp,.mail{
+        display: none;
+        margin: 0;
+    }
+    footer{
+        display: flex;
     }
 }
