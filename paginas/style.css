@@ -103,6 +103,10 @@ textarea {
     height: 12rem;
     overflow: hidden;
 }
+.tabla_img{
+    height: 12rem;
+    overflow: hidden;
+}
 .cat_img img{
     width: 100%;
 }
@@ -271,7 +275,7 @@ footer{
         display: block;
         overflow: hidden;
     }
-    .cat_img{
+    .tabla_img{
         width: 8rem;
         height: auto;
         overflow: hidden;
