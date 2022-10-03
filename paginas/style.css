@@ -122,8 +122,6 @@ aside{
     width: 30%;
     height: fit-content;
     float: right;
-    padding: 1rem;
-    margin: 0.5rem;
 }
 /*---contacto-------*/
 .tabla{
@@ -235,7 +233,7 @@ footer{
     }
     .ofertas{     
         width: 100%;
-        margin: 0;
+        margin: 0rem 0rem 1 rem 0rem;
         padding: 0;
         display: block;
     }
