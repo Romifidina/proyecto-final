@@ -252,6 +252,7 @@ footer{
     .carousel-inner{
         max-height: 20rem;
         width: 98%;
+        margin: 0;
     }
     aside{
         width: 100%;
