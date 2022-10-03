@@ -109,15 +109,17 @@ textarea {
   }
 /*---------index------------------*/
 .ofertas{
-    width: 100%;
+    max-width: 100%;
     display: inline;
     align-content: space-around;
 }
 .carousel-inner{
     height:20rem;
-    width: 100%;
+    max-width: 100%;
 }
 .ofertas_pasadas{
+    max-width: 100%;
+
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
@@ -132,6 +134,7 @@ textarea {
 /*--------ropa---------*/
 .cat{
     display: grid;
+    max-width: 100%;
     
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
     gap: 1rem;
@@ -146,10 +149,11 @@ textarea {
     overflow: hidden;
 }
 .cat_img img{
-    width: 100%;
+    max-width: 100%;
 }
 .cat_texto{
     height: 20%;
+    max-width: 100%;
 
     font-size: 1rem;
     background-color: rgba(248, 211, 165, 0.637);
