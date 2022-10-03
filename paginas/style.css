@@ -66,7 +66,7 @@ main{
     }
     section{
         width: 100%;
-        height: auto;
+        height: fit-content;
         margin: 0;
         padding: 0;
     }
@@ -113,9 +113,8 @@ textarea {
 /*---------index------------------*/
 .ofertas{
     max-width: 98%;
-    display: inline;
-    align-content: space-around;
     margin: .3rem;
+    overflow: hidden;
 }
 .carousel-inner{
     height:20rem;
@@ -291,6 +290,5 @@ footer{
         height: 2rem;
         width: auto;
         justify-content: space-between;
-        align-content: center;
     }
 }
