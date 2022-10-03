@@ -61,18 +61,10 @@ main{
         justify-content: center;
         align-content: center;
 
-        margin: 10rem 1rem 0rem 0rem;
+        margin: 10rem 1rem 1rem 1rem;
     }
-    .ofertas{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-
-
-        width: 100%;
-        margin: 0;
-        padding: 0;
+    .ofertas{     
+        display: none;
     }
     section{
         width: 100%;
