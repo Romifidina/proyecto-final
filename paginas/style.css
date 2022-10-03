@@ -78,7 +78,7 @@ main{
 
         width: 100%;
         height: auto;
-        margin: 0;
+        margin: 0rem 1rem 0rem 0rem ;
         padding: 0;
     }
     .in,.wsp,.mail{
