@@ -272,6 +272,11 @@ footer{
         overflow: hidden;
 
     }
+    .cat_img{
+        width: 12rem;
+        height: auto;
+        overflow: hidden;
+    }
     .in,.wsp,.mail{
         display: none;
         margin: 0;
