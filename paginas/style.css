@@ -245,7 +245,7 @@ footer{
     }
     section{
         width: 100%;
-        margin: 0;
+        margin: 0rem 0rem 1rem 0rem;
         padding: 0;
         display: block;
     }
@@ -253,14 +253,17 @@ footer{
         max-height: 20rem;
         width: 98%;
         margin: 0;
+        padding: 0;
     }
     aside{
         width: 100%;
+        margin: 0;
         padding: 1rem;
         display: block;
     }
     .index{
         width: 100%;
+        margin 0;
         padding: 1rem;
         display: block;
     }
