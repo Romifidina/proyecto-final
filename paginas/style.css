@@ -239,7 +239,7 @@ footer{
     }
     .ofertas{     
         width: 100%;
-        margin: 0rem 0rem 1 rem 0rem;
+        margin: 0rem 0rem 1rem 0rem;
         padding: 0;
         display: block;
     }
@@ -256,7 +256,6 @@ footer{
     }
     aside{
         width: 100%;
-        margin: 1rem ;
         padding: 1rem;
         display: block;
     }
