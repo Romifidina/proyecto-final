@@ -93,7 +93,7 @@ main{
 section{
     background-color: rgba(233, 146, 85, 0.8);
 
-    width: 60%;
+    width: 100%;
     height: fit-content;
     padding: 1rem;
     margin: 0.5rem;
@@ -115,13 +115,12 @@ textarea {
   }
 /*---------index------------------*/
 .ofertas{
-    max-width: 98%;
+    max-width: 100%;
     margin: .3rem;
-    overflow: hidden;
 }
 .carousel-inner{
     height:20rem;
-    max-width: 98%;
+    max-width: 100%;
     margin: .3rem;
 }
 .ofertas_pasadas{
