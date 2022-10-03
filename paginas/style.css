@@ -232,6 +232,7 @@ footer{
     main{
         margin: 9rem 1rem 1rem 1rem;
         display: block;
+        gap: 1rem;
     }
     .ofertas{     
         width: 100%;
