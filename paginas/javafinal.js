@@ -35,3 +35,15 @@ function salir(){
   document.getElementById('form').submit();
  };
 }
+
+function generatetime() {
+  
+  setInterval(() => {
+      const fecha = new Date().toLocaleTimeString();
+    document.getElementById(
+      'rel'
+    ).innerHTML = `${fecha}`;
+  }, 1000);
+}
+
+  generatetime();

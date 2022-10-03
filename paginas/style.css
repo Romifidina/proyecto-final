@@ -255,13 +255,16 @@ footer{
     background-color: rgb(93, 184, 153);
 
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
 
     padding: 1rem;
     
     height: 3rem;
     width: 100%;
+}
+#rel{
+    background-color: rgb(93, 184, 153);
 }
 .corto{
     margin: 0;
@@ -277,7 +280,7 @@ footer{
     }
     .corto{
         display: flex;
-        width: 2.5rem;
+        width: 1.5rem;
         height: auto;
     }
 }
