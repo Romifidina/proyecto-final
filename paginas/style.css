@@ -58,6 +58,7 @@ main{
     main{
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
     section{
         width: 100%;
@@ -82,7 +83,7 @@ section{
 h1, h2{
     text-align: center;
 }
-/*---quienessomos-*/
+/*---quienessomos----------------------*/
 p{
     text-indent: 1rem;
     line-height: 1.3rem;
@@ -90,7 +91,11 @@ p{
     font-size: 1rem;
     text-align: center;
 }
-/*---------index*/
+/*----------contacto--------------*/
+textarea {
+    max-width: 100%;
+  }
+/*---------index------------------*/
 .ofertas{
     width: 100%;
     display: inline;
