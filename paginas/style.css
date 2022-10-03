@@ -55,23 +55,33 @@ main{
     gap: 1rem;
 }
 @media (max-width: 700px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
     main{
         margin: 9rem 1rem 1rem 1rem;
+    }
+    .ofertas{     
+        width: 100%;
+        margin: 0;
+        padding: 0;
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
     }
-    .ofertas{     
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
     section{
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+    .cat{
+        display: grid;
+        width: 100%;
     }
     aside{
         width: 100%;
