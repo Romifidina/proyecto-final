@@ -237,11 +237,13 @@ footer{
         width: 100%;
         margin: 0;
         padding: 0;
+        display: block;
     }
     section{
         width: 100%;
         margin: 0;
         padding: 0;
+        display: block;
     }
     .carousel-inner{
         max-height: 20rem;
@@ -250,9 +252,11 @@ footer{
         width: 100%;
         margin: 0rem 1rem 0rem 0rem ;
         padding: 0;
+        display: block;
     }
     .index{
         width: 100%;
+        display: block;
     }
     .in,.wsp,.mail{
         display: none;
