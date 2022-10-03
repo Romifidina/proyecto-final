@@ -232,7 +232,6 @@ footer{
     main{
         margin: 9rem 1rem 1rem 1rem;
         display: block;
-        gap: 1rem;
     }
     .ofertas{     
         width: 100%;
@@ -251,12 +250,13 @@ footer{
     }
     aside{
         width: 100%;
-        margin: 0rem 1rem 0rem 0rem ;
+        margin: 1rem ;
         padding: 0;
         display: block;
     }
     .index{
         width: 100%;
+        margin: 1rem;
         display: block;
     }
     .in,.wsp,.mail{
