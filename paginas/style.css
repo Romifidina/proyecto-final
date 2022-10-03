@@ -92,7 +92,7 @@ main{
 section{
     background-color: rgba(233, 146, 85, 0.8);
 
-    width: 60%;
+    width: 70%;
     height: fit-content;
     padding: 1rem;
     margin: 0.5rem;
@@ -120,21 +120,6 @@ textarea {
     height:20rem;
     width: 100%;
     margin: .3rem;
-}
-.ofertas_pasadas{
-    width: 100%;
-    margin: .3rem;
-
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-    justify-items: center;
-    align-items: center;
-    align-items: flex-start;
-
-    font-family: monospace;
 }
 /*--------ropa---------*/
 .cat{
@@ -169,7 +154,8 @@ textarea {
 aside{
     background-color: transparent;
 
-    width: 40%;
+    width: 30%;
+    height: fit-content;
     float: right;
     padding: 1rem;
     margin: 0.5rem;
@@ -193,9 +179,6 @@ aside{
 /*------index-------------*/
 .index{
     width: 100%;
-    height: fit-content;
-    margin: 5rem 0rem 0rem 0rem;
-
     background-color: rgba(250, 235, 215, 0.788);
 }
 .descarga{
